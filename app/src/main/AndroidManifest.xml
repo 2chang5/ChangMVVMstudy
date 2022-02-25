@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChangMVVMStudy">
         <activity
-            android:name=".ui.home.MainActivity"
+            android:name=".ui.editDiary.EditDiaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.DiaryHomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
